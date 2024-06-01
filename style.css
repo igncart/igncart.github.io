@@ -203,7 +203,8 @@ h1 {
     color: #f5efd7;
 }
 
-.contenedor form button[type="submit"] {
+.contenedor form button[type="submit"],
+.contenedor form button[type="button"] {
     margin-left: 170;
     background-color: #232323;
     color: #f5efd7;
