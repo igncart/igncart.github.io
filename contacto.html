@@ -1,0 +1,43 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - IANTA</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>IANTA</h1>
+
+    <div class="contenedor">
+
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p><strong>Teléfono:</strong> <span id="celu">2664-332211</span></p>
+            <p><strong>Email:</strong> <span id="email">contacto@ianta.com</span></p>
+            <p id="mensaje">Envíanos tus datos y te respondemos al toque.</p>
+        </div>
+
+
+        <form class="formulario" onsubmit="return validar()">
+            <h2>Completá tus datos.</h2>
+            <label> Nombre* </label> <input id = "txtNombre" /><br/>
+
+            <label> Teléfono* </label> <input id = "txtTelefono" /><br/>
+
+            <label> Comentario </label> <input id = "txtComentario" /><br/>
+
+            <button type = "submit"> Enviar </button>
+        </form>
+
+        <ul id = "ltaErrores"></ul>
+
+        <ol id = "ltaMensajes"></ol>
+
+
+
+    </div>
+
+
+    <script src="formulario.js"></script>
+</body>
+</html>

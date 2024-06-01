@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   
+
     <title>IANTA</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
     <div class = "wrapper">
@@ -14,29 +15,42 @@
             <ul>
                 <li><a href="#"><i class="fas fa-home"></i>Inicio</a></li>
                 <li><a href="#"><i class="fas fa-tag"></i>Productos</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i>Contacto</a></li>
                 <li><a href="#"><i class="fas fa-user"></i>Mi cuenta</a></li>
-               
-                
+
+
             </ul>
         </div>
         <div class="main_content">
             <div class="header">ENVÍO GRATIS EN COMPRAS SUPERIORES A 120.000 PESOS. // 5% OFF PAGANDO CON TRANSFERENCIA. // HOT SALE DESDE EL 1 AL 4 DE JUNIO, 3 CUOTAS SIN INTERÉS. </div>
             <div class="info">
-            <div>
+
             </div>
+
             </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5Zw53xsQ4aU?si=7vyhv0JG6-HgQxLA?controls=0"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
-            </div>    
-            </div>
-            
-        
+
+
     </div>
+
+        <div class="carrusel">
+
+            <div class="carrusel-interior" id="carruselInterior"></div>
+            <button class="carrusel-control anterior" onclick="anteriorDiapositiva()">&#10094;</button>
+            <button class="carrusel-control siguiente" onclick="siguienteDiapositiva()">&#10095;</button>
+
+        </div>
+        <script src="cashusel.js"></script>
+
+
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5Zw53xsQ4aU?si=7vyhv0JG6-HgQxLA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
 </body>
+
 </html>
